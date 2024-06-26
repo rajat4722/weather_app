@@ -26,7 +26,7 @@ class WeatherDetailCard extends StatelessWidget {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(10.0),
       ),
-      // elevation: 5,
+    
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
         child: Column(
@@ -35,7 +35,7 @@ class WeatherDetailCard extends StatelessWidget {
             Row(
               children: [
                 Column(
-                  // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                
                   children: [
                     const Text('Temperature',
                         style: TextStyle(fontSize: 12, color: Colors.white)),
@@ -48,7 +48,7 @@ class WeatherDetailCard extends StatelessWidget {
                 ),
                 const Spacer(),
                 Column(
-                  // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  
                   children: [
                     const Text('Humidity',
                         style: TextStyle(fontSize: 12, color: Colors.white)),
@@ -61,7 +61,7 @@ class WeatherDetailCard extends StatelessWidget {
             Row(
               children: [
                 Column(
-                  // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                 
                   children: [
                     const Text('Wind Speed',
                         style: TextStyle(fontSize: 12, color: Colors.white)),
@@ -70,7 +70,7 @@ class WeatherDetailCard extends StatelessWidget {
                 ),
                 const Spacer(),
                 Column(
-                  // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                 
                   children: [
                     const Text('Visibility',
                         style: TextStyle(fontSize: 12, color: Colors.white)),
@@ -81,7 +81,7 @@ class WeatherDetailCard extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             Column(
-              // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+             
               children: [
                 const Text('Pressure',
                     style: TextStyle(fontSize: 12, color: Colors.white)),
