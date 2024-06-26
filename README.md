@@ -1,16 +1,69 @@
-# weather_app
 
-A new Flutter project.
+# Weather App
 
-## Getting Started
+The Flutter Weather Application is a mobile app designed to provide users with real-time weather information for any city around the world. It fetches weather data from the OpenWeatherMap API and displays essential details such as temperature, humidity, wind speed, and more. The app dynamically adjusts its background image and UI colors based on the current weather conditions of the selected city, enhancing the user experience with visual cues.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Key Features
+
+
+Real-Time Weather Data:- Fetches current weather data from OpenWeatherMap API.
+Dynamic UI:- Adapts background image and card colors based on weather conditions (Clear, Cloudy, Rain, Snow, Thunderstorm).
+
+City Search:- Allows users to search for weather information by entering the city name.
+
+Error Handling:- Implements robust error handling for network issues and invalid city entries.
+
+Clean and Intuitive Design:- Provides a user-friendly interface for seamless navigation and information retrieval.
+## Installation
+
+Clone the repository:
+
+```bash
+ git clone https://github.com/rajat4722/weather_app.git
+ cd weather_app
+```
+    
+## API Reference
+
+#### Get all items
+
+```http
+  https://api.openweathermap.org/data/2.5/weather?q=$_cityName&appid=$apiKey&units=metric
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+## Install Dependencies
+
+```bash
+flutter pub get
+```
+
+http: For making HTTP requests to fetch weather data.
+Other dependencies used in your project.
+## Network Permissions (Android)
+
+
+If your app makes network requests (e.g., to fetch weather data from an API), you'll need to ensure your Android app has the necessary permissions. Open your AndroidManifest.xml file located in android/app/src/main and add the following permissions if they are not already present:
+
+```bash
+ <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+```
+## Run the app
+
+```bash
+flutter run
+```
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
