@@ -6,7 +6,7 @@ The Flutter Weather Application is a mobile app designed to provide users with r
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+![Screenshot_20240626-131004](https://github.com/rajat4722/weather_app/assets/33422414/44b42113-92f6-4652-aaf7-659c4c1510b5)
+![App Screenshot](https://via.placeholder.com/468x300?text=App+![Screenshot_20240626-131004]
 ![Screenshot_20240626-130948](https://github.com/rajat4722/weather_app/assets/33422414/ed3e7f03-191b-4116-bc71-41186e53ec58)
 ![Screenshot_20240626-131032](https://github.com/rajat4722/weather_app/assets/33422414/9d2ce1cd-d870-4389-b37d-49cc5870146a)
 ![Screenshot_20240626-131020](https://github.com/rajat4722/weather_app/assets/33422414/61274531-1599-4abf-9785-45baea4d2b83))
