@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class WeatherApiService {
-  String apiKey = 'ffa34f41a78bac5d4b59b1d3cb6a2717';
+  final String apiKey;
 
   WeatherApiService(this.apiKey);
 
@@ -17,11 +17,16 @@ class WeatherApiService {
         return jsonDecode(response.body);
       } else {
         print('Failed to load weather data: ${response.statusCode}');
-        return null;
+        // Handle specific HTTP status codes
+        if (response.statusCode == 401) {
+          throw Exception('Unauthorized - API key is invalid');
+        } else {
+          throw Exception('Failed to load weather data');
+        }
       }
     } catch (e) {
       print('Failed to connect to the server: $e');
-      return null;
+      throw Exception('Failed to connect to the server');
     }
   }
 }
