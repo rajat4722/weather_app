@@ -151,8 +151,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 controller: _cityController,
                 style: const TextStyle(color: Colors.white),
                 decoration: InputDecoration(
-                  // labelText: 'Enter city name',
-                  // labelStyle: const TextStyle(color: Colors.white),
+                
                   hintText: 'Enter city name',
                   hintStyle: const TextStyle(color: Colors.white),
                   filled: true,

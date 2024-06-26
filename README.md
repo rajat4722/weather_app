@@ -6,7 +6,12 @@ The Flutter Weather Application is a mobile app designed to provide users with r
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://via.placeholder.com/468x300?text=App+(https://github.com/rajat4722/weather_app/assets/33422414/ed3e7f03-191b-4116-bc71-41186e53ec58)
+![Screenshot_20240626-131032](https://github.com/rajat4722/weather_app/assets/33422414/9d2ce1cd-d870-4389-b37d-49cc5870146a)
+![Screenshot_20240626-131020](https://github.com/rajat4722/weather_app/assets/33422414/61274531-1599-4abf-9785-45baea4d2b83))
+
+
+
 
 
 ## Key Features
@@ -34,7 +39,7 @@ Clone the repository:
 #### Get all items
 
 ```http
-  https://api.openweathermap.org/data/2.5/weather?q=$_cityName&appid=$apiKey&units=metric
+  https://api.openweathermap.org/
 ```
 
 | Parameter | Type     | Description                |
